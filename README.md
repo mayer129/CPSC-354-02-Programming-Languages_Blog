@@ -1,7 +1,3 @@
-# CPSC-354-02-Programming-Languages_Blog
-
-
-
 # CPSC 354 - 02 - Blog
 [Course Information](https://github.com/alexhkurz/programming-languages-2020/blob/master/README.md)
 Public blog for CPSC-354-02-Programming-Languages course material
