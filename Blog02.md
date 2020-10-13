@@ -28,5 +28,6 @@ Then, with the `Inductive Hypothesis` we suppose that it holds true for `k` for 
 Last, we must use the `Inductive Step` and show that the proof holds true for some `k next` which will prove that it holds true all natural numbers
 `Inductive Hypothesis: add (S n) m = S (add n m)`
 
+
 While we are really just programming recursively, and taking care of all the base cases and cases, thinking about it through a Discrete Mathematics viewpoint helped me to better understand what we were doing.
 
