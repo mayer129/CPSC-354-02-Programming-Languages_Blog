@@ -1,5 +1,5 @@
 
-# Explanation of Assignment 1 Natural Numbers vs Positive Numbers: Addition, Multiplication, Subtraction  
+# Explanation of Assignment 1: Part 1: Natural Numbers vs Positive Numbers: Addition, Multiplication, Subtraction  
   
 `data NN = O | S NN` Natural Number (NN) = 0 | Successor (S) of natural numbers is S  
 `deriving (Eq,Show)`  

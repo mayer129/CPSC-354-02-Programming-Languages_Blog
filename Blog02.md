@@ -1,4 +1,4 @@
-# My first thoughts on Assignment 1 Provided Code
+# My first thoughts on Assignment 1: Part 1: on the Provided Code
   
 `data NN = O | S NN`  
 `deriving (Eq,Show)`  
