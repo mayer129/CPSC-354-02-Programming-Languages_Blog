@@ -44,4 +44,4 @@ Steps:
  num2 == 2, so we get 2 + 2 + 2 + 2  
  which gives = 8  
 Most people are not very experienced with stuff like this, so it is hard to grasp at first, but it really isn't much work. We only need to implement a few steps, which can end up taking care of all numbers.
-All multiplication is is addition, so we just have the addition function we wrote do all the work for us.
+All multiplication is fundamentally addition, so we just have the addition function we wrote do all the work for us.
