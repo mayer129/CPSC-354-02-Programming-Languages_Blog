@@ -12,13 +12,22 @@ Then in the terminal enter:
   
   
 Meanwhile in python we would create a file called `fac.py` and put the following code in it:  
-`def fac(n):`  
-   `if n == 1:`  
-      `return n`  
-   `else:`  
-      `return n * fac(n-1)`  
+```
+def factorial(n): 
+    if n < 0: 
+        return 0
+    elif n == 0 or n == 1: 
+        return 1
+    else: 
+        fact = 1
+        while(n > 1): 
+            fact *= n 
+            n -= 1
+        return fact  
+```
   
 `print(fac(42))`  
+[Credit for above code](https://www.geeksforgeeks.org/python-program-for-factorial-of-a-number/)
   
 The last line will just run the program with an input of 42. As you can see, it is a lot easier to do recursion in Haskell. Another example of the is the fibonacci sequence. An example of the haskell code is as short as:  
 `fib 0 = 0`  
