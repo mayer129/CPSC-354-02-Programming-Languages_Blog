@@ -16,7 +16,7 @@ Example input:
 It is using successor notation, similar to discrete math. If this was adapted to concrete syntax it would look like `subtr 2 1` which should give 1
 
 ## Writing my Code
-I again tried to code this python program with a similar coding style of what I talked about in the previous blog post.
+I again tried to code this python program with a similar coding style of what I talked about in the previous blog post. As we can see, it is basically just if statements in python, which isn't as clear in the haskell code.
 
 ## My Code
 ```
