@@ -28,7 +28,7 @@ For someone not well versed in Haskell, this code undoubtabley looks imposing. I
 
 ## Addition
 `add :: NN -> NN -> NN`  
-This just means that the program is taking in a natural number, another natural number, and returning a natural number. In swift it could look like: 
+This just means that the program is taking in a natural number, another natural number, and returning a natural number. In swift it could look like: func add(val1: NN, val2: NN) -> NN
 Now we just need to look for the base cases for addition.  
 That is just if we are adding a number to 0.  
 `add O n = n`  
