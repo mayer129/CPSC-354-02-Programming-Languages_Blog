@@ -45,5 +45,7 @@ ars_dict = {
 }
 ```
 When it runs this code if the normal form ever contains `ab`, the dict_contains function will search it, find the key `ab` which would give the value of `""`, and then send the key back to the calculate function. The calculate function will use the key `ab` and return the value `ba` instead for some reason, as it seems .get does not search in order.  
-This is a hard issue to resolve as dictionaries cannot be accessed by index. Meaning that I probably would have to use a different way to store the data. One way I though of doing this would be to make an array of arrays, where 0 stores the key and 1 stores the value. Or I could make an array where odd numbers store the key (ie. 1,3,5,7) and even numbers store the value (ie. 2,4,6,8). There may be much better ways to store this data, and I may be overthinking this, however I am not very experienced in this area, and this is simply what I came up with.
+This is a hard issue to resolve as dictionaries cannot be accessed by index. Meaning that I probably would have to use a different way to store the data. One way I though of doing this would be to make an array of arrays, where 0 stores the key and 1 stores the value. Or I could make an array where odd numbers store the key (ie. 1,3,5,7) and even numbers store the value (ie. 2,4,6,8). There may be much better ways to store this data, and I may be overthinking this, however I am not very experienced in this area, and this is simply what I came up with.  
+
+I spoke to Professor Kurz about this, and from my understanding, a way to resolve all of the issues mentioned here would be to treat the ARS as a graph, and use depth first search.
         
