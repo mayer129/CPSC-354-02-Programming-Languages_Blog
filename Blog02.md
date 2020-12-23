@@ -16,7 +16,7 @@ Multiplication
 `mult (S n) m = add m (mult n m)`  
 Example input: `mult (S O) (S (S O))`  
 
-Subtraction
+Subtraction  
 `subtr :: NN -> NN -> NN`  
 `subtr O n = O`  
 `subtr n O = n`  
