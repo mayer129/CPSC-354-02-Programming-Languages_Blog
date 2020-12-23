@@ -22,7 +22,7 @@ When writing the code to adapt the reference code to python, I had been doing re
 def add(num1, num2):
     return num1 if (num2 == 0) else 1 + add(num1, num2-1)
 ```
-If we compare the two versions together, line 1 of the haskell code is basically line 1 of mine. line 2 of the haskell code is everything before the else on line 2 of mine. line 3 of the haskell code is everything after the else on line 2 of mine.  
+If we compare the two versions together, line 1 of the haskell code is basically line 1 of mine. Line 2 of the haskell code is everything before the else on line 2 of mine. Line 3 of the haskell code is everything after the else on line 2 of mine.  
 The example input for this would be:  
 `print(add(1,2))`  
 Just as with the haskell code, the main thing that happens here is the recursion. I find this very similar to Abstract Reduction Systems, and what we learned about implementing addition or multiplication of numbers in them. It is basically just transferring the successors from one number to the other by recursion, until we finally hit the base case.
