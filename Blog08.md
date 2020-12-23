@@ -2,7 +2,7 @@
 
 ## Explanation
 I found what we did for assignment 1 to be extremely interesting. In addition I found what we learned in it to be extremely useful throughout the course, even being used as a reference for other topics including some things on the final exam. I wanted to go back and review it, and also try and make it in another coding language. The language I chose was python. The next few blogs will be implementing other parts of the provided code in python, such as subtraction and multiplication. I feel like the code in python may be a lot easier for some people to understand as most people have at least an understanding of python, and it is similar to most conventional programming languages.
-Something to note, is that while the addition, subtraction, multiplcation, etc was implemented using abstract syntax. The code I wrote in python uses concrete syntax.
+Something to note, is that while the addition, subtraction, multiplcation, etc were originally implemented using abstract syntax, the code I wrote in python uses concrete syntax.
 
 ## Reference Code
 ```
