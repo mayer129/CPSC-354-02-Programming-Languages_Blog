@@ -20,6 +20,7 @@ It is using successor notation, similar to discrete math. If this was adapted to
 When writing the code to adapt the reference code to python, I had been doing research for another blog post about the implementation of a factorial function in haskell vs python. I found an implementation of python code for it [here](https://www.geeksforgeeks.org/python-program-for-factorial-of-a-number/), which I was impressed by how consise it was. It is the second set of code on the link. Their implementation is using ternary operators. I attempted to do something similar with my code.
 
 ## My Code
+[![Run on Repl.it](https://github.com/mayer129/CPSC-354-02-Programming-Languages_Blog/blob/main/runonreplit.svg)](https://repl.it/@mayer129/additionpy#main.py)
 ```python
 def add(num1, num2):
     return num1 if (num2 == 0) else 1 + add(num1, num2-1)

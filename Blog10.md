@@ -26,6 +26,7 @@ def add(num1, num2):
     return num1 if (num2 == 0) else 1 + add(num1, num2-1)
 ```
 ## My Code
+[![Run on Repl.it](https://github.com/mayer129/CPSC-354-02-Programming-Languages_Blog/blob/main/runonreplit.svg)](https://repl.it/@mayer129/multiplicationpy#main.py)
 ```python
 def mult(num1, num2):
     if (num1 == 0): return 0
