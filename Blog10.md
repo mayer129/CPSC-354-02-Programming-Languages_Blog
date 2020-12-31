@@ -12,7 +12,9 @@ mult (S n) m = add m (mult n m)
 ```
 This was the reference code given for multiplication. To further clarify what I mean about abstract vs concrete syntax, the example input for this code is below:  
 Example input:  
-`mult (S O) (S (S O))`  
+```haskell
+mult (S O) (S (S O))
+```
 It is using successor notation, similar to discrete math. If this was adapted to concrete syntax it would look like `mult 1 2` which should give 2
 
 ## Writing my Code
@@ -36,7 +38,9 @@ print(mult(1,2))
 ```
 Again, like the haskell code, we must first take care of all base cases for subtraction. This is just simple math. Any (n)umber * 0 = 0. Any n(umber) * 1 = n. All the rest of the code is just reducing it using addition. Let us walk through the steps:
 Given an input of:
-`print(mult(4,2))`
+```python
+print(mult(4,2))
+```
 What it looks like: (4*2)
 Steps:
 1. Defaults to else: 2 + (3*2)
