@@ -4,7 +4,7 @@
 For this blog post, I will be continuing from what I did in the previous blog. I will attempt to implement a python version of the code given in assignment 1 on multiplication. Again, my version uses concrete syntax, while the haskell version uses abstract syntax.
 
 ## Reference Code
-```
+```haskell
 mult :: NN -> NN -> NN 
 mult O n = O
 mult (S O) n = n
@@ -31,7 +31,9 @@ def mult(num1, num2):
 ```
 If we compare the two versions together, line 1 of the haskell code is basically line 1 of mine. Line 2 of the haskell code is line 2 of mine. Line 3 of the haskell code is everything before the else on line 3 of mine. Line 4 of the haskell code is everything after the else on line 3 of mine.
 The example input for this would be:  
-`print(mult(1,2))`  
+```python
+print(mult(1,2))
+```
 Again, like the haskell code, we must first take care of all base cases for subtraction. This is just simple math. Any (n)umber * 0 = 0. Any n(umber) * 1 = n. All the rest of the code is just reducing it using addition. Let us walk through the steps:
 Given an input of:
 `print(mult(4,2))`
