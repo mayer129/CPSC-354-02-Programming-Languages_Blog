@@ -20,7 +20,7 @@ def calculate():
     count = 0
     global findNormal
     while (True):
-        count = count + 1
+        count += 1
         temp = dict_contains(findNormal, ars_dict)
         if (count > 100):
             print("Looks like you're stuck in an infinite loop!\nBreaking...")
