@@ -19,7 +19,7 @@ It is using successor notation, similar to discrete math. If this was adapted to
 I again tried to code this python program with a similar coding style of what I talked about in the previous blog post. As we can see, it is basically just if statements in python, which isn't as clear in the haskell code.
 
 ## My Code
-```
+```python
 def subtr(num1, num2):
     if (num1 == 0): return 0
     return num1 if (num2 == 0) else subtr(num1-1, num2-1)

@@ -19,12 +19,12 @@ It is using successor notation, similar to discrete math. If this was adapted to
 I again tried to code this python program with a similar coding style of what I talked about in the previous blog post. As we can see, it is basically just if statements in python, which isn't as clear in the haskell code. For this program, just as with the haskell, to do multiplication it requires addition. So it will call the addition function that we have previously written. If you want to test it out yourself, you will need to have both of the functions in your file for it to work.
 
 ## Previous Addition Code
-```
+```python
 def add(num1, num2):
     return num1 if (num2 == 0) else 1 + add(num1, num2-1)
 ```
 ## My Code
-```
+```python
 def mult(num1, num2):
     if (num1 == 0): return 0
     return num2 if (num1 == 1) else add(num2, mult(num1-1, num2))
