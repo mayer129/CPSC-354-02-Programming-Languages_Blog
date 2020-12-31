@@ -4,7 +4,7 @@ I decided to make a very basic program to calculate the normal forms for abstrac
 I chose to store the ARS rules in a dictionary as the rules are basically key value pairs. It was not until later that I realized that this would pose a problem.
 I already explained how to think of an ARS in the previous blog, so if you have not read it, it will make it a lot easier to understand why I am doing what I am doing for my code.  
 So I am trying to find the normal form of a given word which is stored in a string. So first what I did is to write a method to search the key value pairs for any pair that matched any part of the given string.  
-I did this like so:
+I did this like so:  
 [![Run on Repl.it](https://github.com/mayer129/CPSC-354-02-Programming-Languages_Blog/blob/main/runonreplit.svg)](https://repl.it/@mayer129/arspy#main.py)
 ```
 def dict_contains(value, searchDict):
